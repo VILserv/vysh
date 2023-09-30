@@ -1,0 +1,54 @@
+.about-us {
+  display: inline-flex;
+  flex-direction: row-reverse;
+  background-image: url(/images/about-us-background-mobile.png);
+  background-repeat: no-repeat;
+  background-position: bottom 0.45px right 0.61px;
+  background-color: black;
+}
+h2 {
+  color: #fcf9f9;
+  font-family: Manrope;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 44px; /* 137.5% */
+  letter-spacing: -0.96px;
+}
+p {
+  color: rgba(252, 249, 249, 0.4);
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.56px;
+}
+
+@media screen and (min-width: 375px) {
+  .container-about-us {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .about-us {
+    margin: 0;
+    padding: 0;
+  }
+  .about-us-title {
+    margin: 0 auto;
+    padding-left: 20px;
+  }
+  .about-us-box {
+    box-sizing: border-box;
+  }
+  .about-us-list {
+    margin: 0 auto;
+    padding: 0;
+  }
+  .about-us-item {
+    width: 335px;
+    margin: 0 auto;
+    padding: 20px 20px 0 20px;
+  }
+}
